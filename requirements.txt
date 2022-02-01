@@ -1,0 +1,2 @@
+tkmacosx >= 1.0.4 #available only for macOs 
+Pillow >= 9.0.0 
