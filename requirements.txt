@@ -1,2 +1,2 @@
-tkmacosx >= 1.0.4 #available only for macOs 
-Pillow >= 9.0.0 
+tkmacosx >= 1.0.5 #available only for macOs 
+Pillow >= 9.2.0 

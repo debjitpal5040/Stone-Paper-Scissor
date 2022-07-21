@@ -7,7 +7,7 @@ window = Tk()
 window.title("Stone Paper Scissor")
 
 image = Image.open('sps.jpg')
-image.thumbnail((500, 500), Image.ANTIALIAS)
+image.thumbnail((500, 500), Image.Resampling.LANCZOS)
 photo = ImageTk.PhotoImage(image)
 label_image = Label(image=photo)
 label_image.grid(column=15, row=0)
